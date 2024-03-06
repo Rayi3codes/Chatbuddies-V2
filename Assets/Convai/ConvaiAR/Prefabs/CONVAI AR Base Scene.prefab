@@ -31,7 +31,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4712834161994850220}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -107,7 +106,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4234167601174917125}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -243,7 +241,6 @@ RectTransform:
   m_Children:
   - {fileID: 7166985972220829776}
   m_Father: {fileID: 5165753882613541349}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -319,7 +316,6 @@ RectTransform:
   m_Children:
   - {fileID: 4712834161994850220}
   m_Father: {fileID: 4234167601174917125}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -405,7 +401,6 @@ RectTransform:
   - {fileID: 4291086455379814316}
   - {fileID: 5165753882613541349}
   m_Father: {fileID: 4211429538052791967}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -434,7 +429,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Characters.Array.data[1].gameObject
       value: 
-      objectReference: {fileID: 43374123345931956}
+      objectReference: {fileID: 0}
     - target: {fileID: 1718629411633327267, guid: d48e039e0643fd848beb10345244dda6,
         type: 3}
       propertyPath: targetObject
@@ -523,7 +518,7 @@ PrefabInstance:
     - target: {fileID: 4601294216393060716, guid: d48e039e0643fd848beb10345244dda6,
         type: 3}
       propertyPath: m_Name
-      value: CONVAI AR Base Scene Variant
+      value: CONVAI AR Base Scene
       objectReference: {fileID: 0}
     - target: {fileID: 5348484080169601969, guid: d48e039e0643fd848beb10345244dda6,
         type: 3}
@@ -548,6 +543,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4052847107375377036, guid: 40747dc89f5ea554aa7985a154460999,
         type: 3}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6,
+        type: 3}
+      propertyPath: characters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6,
+        type: 3}
+      propertyPath: characters.Array.data[0].characterName
+      value: Chatbuddy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6,
+        type: 3}
+      propertyPath: characters.Array.data[0].characterGameObject
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6,
+        type: 3}
+      propertyPath: characters.Array.data[0].characterTextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6,
+        type: 3}
+      propertyPath: characters.Array.data[0].characterTextColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5782767667962120657, guid: d48e039e0643fd848beb10345244dda6,
         type: 3}
       propertyPath: SettingsKeyAction.m_SingletonActionBindings.Array.size
@@ -697,10 +717,6 @@ PrefabInstance:
     - {fileID: 655288513780708269, guid: d48e039e0643fd848beb10345244dda6, type: 3}
     - {fileID: 2728381557873022253, guid: d48e039e0643fd848beb10345244dda6, type: 3}
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6134347739156631632, guid: d48e039e0643fd848beb10345244dda6,
-        type: 3}
-      insertIndex: 3
-      addedObject: {fileID: 210002703691741711}
     - targetCorrespondingSourceObject: {fileID: 3753964474226285913, guid: d48e039e0643fd848beb10345244dda6,
         type: 3}
       insertIndex: -1
@@ -735,101 +751,4 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3753964474226285913, guid: d48e039e0643fd848beb10345244dda6,
     type: 3}
   m_PrefabInstance: {fileID: 1038856067121464262}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &6578447141800121238 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6134347739156631632, guid: d48e039e0643fd848beb10345244dda6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1038856067121464262}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1982349723884914862
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 6578447141800121238}
-    m_Modifications:
-    - target: {fileID: 833855818301767486, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_Name
-      value: Convai AR Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8016718058140168876, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-        type: 3}
-      propertyPath: _characterPrefab
-      value: 
-      objectReference: {fileID: 2826298300503875804, guid: 6bcc3c0ebc315ba45a60ae2afb1f5689,
-        type: 3}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4dabb3e6f148ff440bac87dc9b8be899, type: 3}
---- !u!1 &43374123345931956 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1952486476939486746, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-    type: 3}
-  m_PrefabInstance: {fileID: 1982349723884914862}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &210002703691741711 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1830903234318561953, guid: 4dabb3e6f148ff440bac87dc9b8be899,
-    type: 3}
-  m_PrefabInstance: {fileID: 1982349723884914862}
   m_PrefabAsset: {fileID: 0}
